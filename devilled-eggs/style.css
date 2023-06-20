@@ -1,21 +1,57 @@
-#main-heading {
-    text-align: center;
-    font-family: Arial;
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 120px;
+    background-color: rgb(253, 255, 200);
 }
 
-.devilled-eggs {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
+.top {
+    display: flex;
+    flex-direction: column;
 }
 
-.steps, .ingredients, .Description {
-    font-family: Helvetica;
-    margin-left: 10mm;
+.main-heading {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.item-list, .small-para, #steps-ordered {
-    font-family: system-ui;
-    margin-left: 10mm;
+.description {
+    font-size: 40px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+.bottom {
+    font-size: 40px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.items-and-procedure {
+    width: 45%;
+    border: 3px dashed black;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.steps-ordered {
+    width: 45%;
+    border: 3px dashed black;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+li {
+    margin: 30px;
 }
